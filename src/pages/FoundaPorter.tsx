@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function FoundaPorter() {
@@ -22,9 +23,11 @@ function FoundaPorter() {
                 <th scope="col" className="px-6 py-3">
                     Drop
                 </th>
+               
                 <th scope="col" className="px-6 py-3">
                     Fair
                 </th>
+               
             </tr>
         </thead>
         <tbody>
@@ -41,6 +44,28 @@ function FoundaPorter() {
                 <td className="px-6 py-4">
                 RKMP, Platform 4
                 </td>
+                <Link
+                href="/ReachPassenger"
+                >
+                <td className="px-6 py-4">
+                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Rs 200</a>
+                </td>
+                </Link>
+            </tr>
+            <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Sundar Lal
+                </th>
+                <td className="px-6 py-4">
+                <img className="w-10 h-10 rounded-full" src="https://thumbs.dreamstime.com/z/jongensavatar-ronde-die-webknoop-op-wit-wordt-ge%C3%AFsoleerd-105543227.jpg?w=768" alt="Rounded avatar"/>
+                </td>
+                <td className="px-6 py-4">
+                    RKMP, Platform 1
+                </td>
+                <td className="px-6 py-4">
+                RKMP, Platform 4
+                </td>
+              
                 <td className="px-6 py-4">
                     <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Rs 200</a>
                 </td>
@@ -58,23 +83,7 @@ function FoundaPorter() {
                 <td className="px-6 py-4">
                 RKMP, Platform 4
                 </td>
-                <td className="px-6 py-4">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Rs 200</a>
-                </td>
-            </tr>
-            <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
-                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Sundar Lal
-                </th>
-                <td className="px-6 py-4">
-                <img className="w-10 h-10 rounded-full" src="https://thumbs.dreamstime.com/z/jongensavatar-ronde-die-webknoop-op-wit-wordt-ge%C3%AFsoleerd-105543227.jpg?w=768" alt="Rounded avatar"/>
-                </td>
-                <td className="px-6 py-4">
-                    RKMP, Platform 1
-                </td>
-                <td className="px-6 py-4">
-                RKMP, Platform 4
-                </td>
+              
                 <td className="px-6 py-4">
                     <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Rs 200</a>
                 </td>
